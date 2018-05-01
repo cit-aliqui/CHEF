@@ -1,5 +1,5 @@
-cookbook_file 'Copying Student SQL File' do
-    source 'student.sql'
+template 'Copying Student SQL File' do
+    source 'student.sql.erb'
     path '/tmp/student.sql'
     action :create
 end

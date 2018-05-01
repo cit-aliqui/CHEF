@@ -1,0 +1,2 @@
+create database if not exists <%= node[:DB][:DBNAME] %>;
+grant all privileges on <%= node[:DB][:DBNAME] %>.* to '<%= node[:DB][:DBUSER] %>'@'%' identified by '<%= node[:DB][:DBUSER] %>'; 

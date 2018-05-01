@@ -1,0 +1,6 @@
+{
+   "id": "mariadb",
+   "DBNAME": "studentdev",
+   "DBUSER": "student",
+   "DBPASS": "student@1"
+}
